@@ -55,4 +55,4 @@ class Recommendation(Resource):
 api.add_resource(Recommendation,"/recommend")
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(port=5003,debug=True)
